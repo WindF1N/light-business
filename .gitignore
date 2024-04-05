@@ -1,0 +1,14 @@
+__pycache__
+venv
+
+node_modules
+build
+.env
+
+.DS_Store
+.eslintcache
+/.vscode/
+*.local
+*.log
+.idea
+!**/glob-import/dir/node_modules
