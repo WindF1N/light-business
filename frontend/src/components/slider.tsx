@@ -10,7 +10,7 @@ export default function Slider() {
         if (imagesDivRef.current) {
             const scrollLeft: number = imagesDivRef.current.scrollLeft;
             const offsetWidth: number = window.innerWidth;
-            const scrollPosition: number = Math.max(0, (scrollLeft / offsetWidth).toFixed(0)) + 1;
+            const scrollPosition: number = Math.max(0, Math.floor(scrollLeft / offsetWidth)) + 1;
             if (imagesCountDivRef.current) {
                 imagesCountDivRef.current.innerHTML = `${scrollPosition}/${slider.images.length}`;
             };
@@ -55,10 +55,10 @@ export default function Slider() {
         slider.update("id", "slider1");
     }, [slider.id])
     return (
-        <div className="relative">
+        <div className="relative w-full">
             <div className="flex flex-start w-full overflow-x-auto no-scrollbar" ref={imagesDivRef} id="slider1">
                 {slider.images.map((image: any, index: number) => (
-                    <div className="w-[100%] h-[70vw] shrink-0" key={index}>
+                    <div className="w-[100%] h-[70vw] max-h-[300px] shrink-0" key={index}>
                         <img src={image} alt="" className="w-[100%] h-[100%]" style={{objectFit: "cover"}}/>
                     </div>
                 ))}
@@ -66,7 +66,7 @@ export default function Slider() {
             <div className="absolute top-[2.5vw] left-0 w-full flex justify-center items-center">
                 <div ref={imagesCountDivRef} className="bg-[rgba(17,17,17,0.9)] py-[2px] px-[5px] rounded-[4px] text-[11px] text-white">1/{slider.images.length}</div>
             </div>
-            <div className="absolute bottom-[2.5vw] left-[2.5vw] w-[95vw] h-[3px] rounded-[3px] overflow-hidden bg-[rgba(51,51,51,0.5)]">
+            <div className="absolute bottom-[10px] mx-[10px] h-[3px] rounded-[3px] overflow-hidden bg-[rgba(51,51,51,0.5)]" style={{width: "calc(100% - 20px)"}}>
                 <div ref={imagesScrollBarDivRef} className="h-full w-[33.333%] bg-white rounded-[3px]"></div>
             </div>
         </div>

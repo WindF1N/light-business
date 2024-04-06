@@ -13,7 +13,7 @@ export default defineConfig({
       manifest: {
         "name": "LIGHT Driver",
         "short_name": "LIGHTDriver",
-        "start_url": "/home",
+        "start_url": "/",
         "display": "standalone",
         "background_color": "#000000",
         "theme_color": "#000",

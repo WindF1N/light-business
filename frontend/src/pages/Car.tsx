@@ -1,8 +1,10 @@
 import Slider from "@/components/slider";
 import MiniSlider from "@/components/mini-slider";
 import { Button } from "@/components/ui/button";
+import { useNavigate } from "react-router-dom";
 
 export default function Car() {
+    const navigate = useNavigate();
     return (
         <div className="relative w-full flex flex-col">
             <Slider />
@@ -34,34 +36,46 @@ export default function Car() {
                 </div>
             </div>
             <div className="flex gap-[10px] p-[10px] overflow-x-auto no-scrollbar">
-                <div className="flex flex-col w-[55vw] shrink-0 gap-[20px] p-[12px] bg-[hsl(var(--secondary))] rounded-[4px]">
+                <div className="flex flex-col w-[250px] shrink-0 gap-[20px] p-[12px] bg-[hsl(var(--secondary))] rounded-[4px]">
                     <div className="flex flex-col">
                         <span className="text-[16px]">1-3 дней</span>
                         <span className="text-[14px] font-light">50 000 ₽/сутки</span>
                     </div>
                     <div className="text-[14px] font-light">
                         - Бесплатный доп.водитель<br/>
-                        - Бесплатная мойка<br/>
+                        <span className="text-[#666] font-light">- Бесплатная мойка<br/>
                         - Бесплатная доставка<br/>
-                        - Бесплатный возврат
+                        - Бесплатный возврат</span>
                     </div>
                 </div>    
-                <div className="flex flex-col w-[55vw] shrink-0 gap-[20px] p-[12px] bg-[hsl(var(--secondary))] rounded-[4px]">
+                <div className="flex flex-col w-[250px] shrink-0 gap-[20px] p-[12px] bg-[hsl(var(--secondary))] rounded-[4px]">
                     <div className="flex flex-col">
-                        <span className="text-[16px]">1-3 дней</span>
-                        <span className="text-[14px] font-light">50 000 ₽/сутки</span>
+                        <span className="text-[16px]">4-6 дней</span>
+                        <span className="text-[14px] font-light">45 000 ₽/сутки</span>
+                    </div>
+                    <div className="text-[14px] font-light">
+                        - Бесплатный доп.водитель<br/>
+                        - Бесплатная мойка<br/>
+                        <span className="text-[#666] font-light">- Бесплатная доставка<br/>
+                        - Бесплатный возврат</span>
+                    </div>
+                </div>
+                <div className="flex flex-col w-[250px] shrink-0 gap-[20px] p-[12px] bg-[hsl(var(--secondary))] rounded-[4px]">
+                    <div className="flex flex-col">
+                        <span className="text-[16px]">7-14 дней</span>
+                        <span className="text-[14px] font-light">40 000 ₽/сутки</span>
                     </div>
                     <div className="text-[14px] font-light">
                         - Бесплатный доп.водитель<br/>
                         - Бесплатная мойка<br/>
                         - Бесплатная доставка<br/>
-                        - Бесплатный возврат
+                        <span className="text-[#666] font-light">- Бесплатный возврат</span>
                     </div>
                 </div>
-                <div className="flex flex-col w-[55vw] shrink-0 gap-[20px] p-[12px] bg-[hsl(var(--secondary))] rounded-[4px]">
+                <div className="flex flex-col w-[250px] shrink-0 gap-[20px] p-[12px] bg-[hsl(var(--secondary))] rounded-[4px]">
                     <div className="flex flex-col">
-                        <span className="text-[16px]">1-3 дней</span>
-                        <span className="text-[14px] font-light">50 000 ₽/сутки</span>
+                        <span className="text-[16px]">от 15 дней</span>
+                        <span className="text-[14px] font-light">35 000 ₽/сутки</span>
                     </div>
                     <div className="text-[14px] font-light">
                         - Бесплатный доп.водитель<br/>
@@ -73,6 +87,7 @@ export default function Car() {
             </div>
             <div className="p-[10px]">
                 <Button variant="secondary" 
+                        onClick={() => navigate('/calendar')}
                         className={`font-light w-full text-left p-[20px] h-auto bg-[hsl(var(--foreground))] text-[hsl(var(--background))] hover:bg-[hsl(var(--secondary))] hover:text-[hsl(var(--muted))]`}>
                             Продолжить
                 </Button>
