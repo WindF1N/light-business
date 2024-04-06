@@ -1,13 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Root from './Root.tsx'
-import Page from './pages/Page.tsx'
+import Home from './pages/Home.tsx'
+import Car from './pages/Car.tsx'
 import ErrorPage from "./error-page";
 import './index.css'
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import { ThemeProvider } from "@/components/theme-provider"
 
 const router = createBrowserRouter([
   {
@@ -16,8 +18,12 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/page",
-        element: <Page />
+        path: "/",
+        element: <Home />
+      },
+      {
+        path: "/car",
+        element: <Car />
       }
     ]
   },
@@ -25,6 +31,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
+      <RouterProvider router={router} />
+    </ThemeProvider>
   </React.StrictMode>,
 )

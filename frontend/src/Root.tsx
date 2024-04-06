@@ -1,11 +1,29 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import { ModeToggle } from "@/components/mode-toggle";
+
+import logoImage from "./assets/logo.svg";
+import logoWhiteImage from "./assets/logo-white.svg";
+
+import { useTheme } from "@/components/theme-provider";
+import { LightMenu } from "@/components/light-menu";
 
 export default function Root() {
+  const { theme } = useTheme();
   return (
-    <div className="flex flex-col gap-[20px] items-center w-[100vw]">
-      <div className="text-[32px]">Hello, World!</div>
-      <Link to="/page"><div className="text-[18px]">Go to page!</div></Link>
+    <div className="relative flex flex-col items-center w-[100vw]">
+      <div className="w-full flex justify-between align-items p-[15px] border-b sticky top-0 left-0 bg-[hsl(var(--background))] z-[1]">
+        <div className="relative flex items-center">
+          <img src={theme === "light" ? logoImage : logoWhiteImage} alt="" className="h-[80%]" />
+        </div>
+        <div>
+          <ModeToggle />
+        </div>
+      </div>
       <Outlet />
+      <div className="p-[30px] text-[12px] text-[hsl(var(--foreground))] font-light mt-auto">
+        powered by <b>LIGHT Business</b> © 2024
+      </div>
+      <LightMenu />
     </div>
   )
 }
