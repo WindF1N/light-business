@@ -4,7 +4,8 @@ import Root from './Root.tsx';
 import Home from './pages/Home.tsx';
 import Car from './pages/Car.tsx';
 import Calendar from './pages/Calendar.tsx';
-import Map from './pages/Map.tsx';
+import MapBox from './pages/Map.tsx';
+import CarBooking from './pages/CarBooking.tsx';
 import ErrorPage from "./error-page";
 import './index.css'
 import {
@@ -24,8 +25,12 @@ const router = createBrowserRouter([
         element: <Home />
       },
       {
-        path: "/car",
+        path: "/cars/:carId",
         element: <Car />
+      },
+      {
+        path: "/cars/:carId/booking",
+        element: <CarBooking />
       },
       {
         path: "/calendar",
@@ -33,7 +38,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/map",
-        element: <Map />
+        element: <MapBox />
       }
     ]
   },

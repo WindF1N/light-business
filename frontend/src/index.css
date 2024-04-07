@@ -83,3 +83,7 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+ymaps[is="ymaps"] {
+  height: 100vh!important;
+}

@@ -128,7 +128,7 @@ export default function Calendar() {
     }, []);
 
     return (
-        <div className="">
+        <div className="w-full max-w-[480px]">
             <div className="sticky left-0 top-[70px] bg-[hsl(var(--background))]">
                 <div className="flex items-center justify-between">
                 {['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'].map((day) => (

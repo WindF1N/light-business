@@ -97,21 +97,21 @@ export default function Home() {
             </div>
             {subCategory === "line" &&
             <div className="flex flex-wrap px-[10px] gap-[5px]">
-                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/car')}>
+                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/cars/1')}>
                     <img src={image} alt="image" className="w-full h-full rounded-[8px]" style={{objectFit: "cover"}} />
                     <div className="absolute h-[32%] w-full bottom-0 left-0 bg-[rgba(24,24,26,0.5)] py-[5px] px-[10px] backdrop-blur-[3px] rounded-[8px]">
                         <div className="text-white text-[11px]">от 2 500 ₽/сутки</div>
                         <div className="text-white text-[13px] text-nowrap truncate overflow-hidden">Ford Mustang 2020</div>
                     </div>
                 </div>
-                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/car')}>
+                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/cars/1')}>
                     <img src={image6} alt="image" className="w-full h-full rounded-[8px]" style={{objectFit: "cover"}} />
                     <div className="absolute h-[32%] w-full bottom-0 left-0 bg-[rgba(24,24,26,0.5)] py-[5px] px-[10px] backdrop-blur-[3px] rounded-[8px]">
                         <div className="text-white text-[11px]">от 2 500 ₽/сутки</div>
                         <div className="text-white text-[13px] text-nowrap truncate overflow-hidden">Hobi Siesta a70 GM 2.5 AT, 2022</div>
                     </div>
                 </div>
-                <div className="relative w-[100%] h-[66vw] max-h-[300px] rounded-[8px] overflow-hidden" onClick={() => navigate('/car')}>
+                <div className="relative w-[100%] h-[66vw] max-h-[300px] rounded-[8px] overflow-hidden" onClick={() => navigate('/cars/1')}>
                     <img src={image6} alt="image" className="w-full h-full rounded-[8px]" style={{objectFit: "cover"}} />
                     <div className="absolute h-[40%] w-full bottom-0 left-0 p-[10px] rounded-[8px] flex flex-col justify-end"
                          style={{background: "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 1) 100%)"}}>
@@ -119,14 +119,14 @@ export default function Home() {
                         <div className="text-white text-[18px] text-nowrap truncate overflow-hidden">Hobi Siesta a70 GM 2.5 AT, 2022</div>
                     </div>
                 </div>
-                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/car')}>
+                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/cars/1')}>
                     <img src={image} alt="image" className="w-full h-full rounded-[8px]" style={{objectFit: "cover"}} />
                     <div className="absolute h-[32%] w-full bottom-0 left-0 bg-[rgba(24,24,26,0.5)] py-[5px] px-[10px] backdrop-blur-[3px] rounded-[8px]">
                         <div className="text-white text-[11px]">от 2 500 ₽/сутки</div>
                         <div className="text-white text-[13px] text-nowrap truncate overflow-hidden">Jeep Wrangler</div>
                     </div>
                 </div>
-                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/car')}>
+                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/cars/1')}>
                     <img src={image} alt="image" className="w-full h-full rounded-[8px]" style={{objectFit: "cover"}} />
                     <div className="absolute h-[32%] w-full bottom-0 left-0 bg-[rgba(24,24,26,0.5)] py-[5px] px-[10px] backdrop-blur-[3px] rounded-[8px]">
                         <div className="text-white text-[11px]">от 2 500 ₽/сутки</div>
@@ -136,21 +136,21 @@ export default function Home() {
             </div>}
             {subCategory === "autos" &&
             <div className="flex flex-wrap px-[10px] gap-[5px]">
-                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/car')}>
+                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/cars/1')}>
                     <img src={image} alt="image" className="w-full h-full rounded-[8px]" style={{objectFit: "cover"}} />
                     <div className="absolute h-[32%] w-full bottom-0 left-0 bg-[rgba(24,24,26,0.5)] py-[5px] px-[10px] backdrop-blur-[3px] rounded-[8px]">
                         <div className="text-white text-[11px]">от 2 500 ₽/сутки</div>
                         <div className="text-white text-[13px] text-nowrap truncate overflow-hidden">Ford Mustang 2020</div>
                     </div>
                 </div>
-                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/car')}>
+                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/cars/1')}>
                     <img src={image} alt="image" className="w-full h-full rounded-[8px]" style={{objectFit: "cover"}} />
                     <div className="absolute h-[32%] w-full bottom-0 left-0 bg-[rgba(24,24,26,0.5)] py-[5px] px-[10px] backdrop-blur-[3px] rounded-[8px]">
                         <div className="text-white text-[11px]">от 2 500 ₽/сутки</div>
                         <div className="text-white text-[13px] text-nowrap truncate overflow-hidden">Hobi Siesta a70 GM 2.5 AT, 2022</div>
                     </div>
                 </div>
-                <div className="relative w-[100%] h-[66vw] max-h-[300px] rounded-[8px] overflow-hidden" onClick={() => navigate('/car')}>
+                <div className="relative w-[100%] h-[66vw] max-h-[300px] rounded-[8px] overflow-hidden" onClick={() => navigate('/cars/1')}>
                     <img src={image} alt="image" className="w-full h-full rounded-[8px]" style={{objectFit: "cover"}} />
                     <div className="absolute h-[40%] w-full bottom-0 left-0 p-[10px] rounded-[8px] flex flex-col justify-end"
                          style={{background: "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 1) 100%)"}}>
@@ -158,14 +158,14 @@ export default function Home() {
                         <div className="text-white text-[18px] text-nowrap truncate overflow-hidden">Hobi Siesta a70 GM 2.5 AT, 2022</div>
                     </div>
                 </div>
-                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/car')}>
+                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/cars/1')}>
                     <img src={image} alt="image" className="w-full h-full rounded-[8px]" style={{objectFit: "cover"}} />
                     <div className="absolute h-[32%] w-full bottom-0 left-0 bg-[rgba(24,24,26,0.5)] py-[5px] px-[10px] backdrop-blur-[3px] rounded-[8px]">
                         <div className="text-white text-[11px]">от 2 500 ₽/сутки</div>
                         <div className="text-white text-[13px] text-nowrap truncate overflow-hidden">Jeep Wrangler</div>
                     </div>
                 </div>
-                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/car')}>
+                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/cars/1')}>
                     <img src={image} alt="image" className="w-full h-full rounded-[8px]" style={{objectFit: "cover"}} />
                     <div className="absolute h-[32%] w-full bottom-0 left-0 bg-[rgba(24,24,26,0.5)] py-[5px] px-[10px] backdrop-blur-[3px] rounded-[8px]">
                         <div className="text-white text-[11px]">от 2 500 ₽/сутки</div>
@@ -175,21 +175,21 @@ export default function Home() {
             </div>}
             {subCategory === "motorcycles" &&
             <div className="flex flex-wrap px-[10px] gap-[5px]">
-                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/car')}>
+                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/cars/1')}>
                     <img src={image1} alt="image" className="w-full h-full rounded-[8px]" style={{objectFit: "cover"}} />
                     <div className="absolute h-[32%] w-full bottom-0 left-0 bg-[rgba(24,24,26,0.5)] py-[5px] px-[10px] backdrop-blur-[3px] rounded-[8px]">
                         <div className="text-white text-[11px]">от 2 500 ₽/сутки</div>
                         <div className="text-white text-[13px] text-nowrap truncate overflow-hidden">Harley Devidson</div>
                     </div>
                 </div>
-                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/car')}>
+                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/cars/1')}>
                     <img src={image1} alt="image" className="w-full h-full rounded-[8px]" style={{objectFit: "cover"}} />
                     <div className="absolute h-[32%] w-full bottom-0 left-0 bg-[rgba(24,24,26,0.5)] py-[5px] px-[10px] backdrop-blur-[3px] rounded-[8px]">
                         <div className="text-white text-[11px]">от 2 500 ₽/сутки</div>
                         <div className="text-white text-[13px] text-nowrap truncate overflow-hidden">Harley Devidson</div>
                     </div>
                 </div>
-                <div className="relative w-[100%] h-[66vw] max-h-[300px] rounded-[8px] overflow-hidden" onClick={() => navigate('/car')}>
+                <div className="relative w-[100%] h-[66vw] max-h-[300px] rounded-[8px] overflow-hidden" onClick={() => navigate('/cars/1')}>
                     <img src={image1} alt="image" className="w-full h-full rounded-[8px]" style={{objectFit: "cover"}} />
                     <div className="absolute h-[40%] w-full bottom-0 left-0 p-[10px] rounded-[8px] flex flex-col justify-end"
                          style={{background: "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 1) 100%)"}}>
@@ -197,14 +197,14 @@ export default function Home() {
                         <div className="text-white text-[18px] text-nowrap truncate overflow-hidden">Harley Devidson</div>
                     </div>
                 </div>
-                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/car')}>
+                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/cars/1')}>
                     <img src={image1} alt="image" className="w-full h-full rounded-[8px]" style={{objectFit: "cover"}} />
                     <div className="absolute h-[32%] w-full bottom-0 left-0 bg-[rgba(24,24,26,0.5)] py-[5px] px-[10px] backdrop-blur-[3px] rounded-[8px]">
                         <div className="text-white text-[11px]">от 2 500 ₽/сутки</div>
                         <div className="text-white text-[13px] text-nowrap truncate overflow-hidden">Harley Devidson</div>
                     </div>
                 </div>
-                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/car')}>
+                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/cars/1')}>
                     <img src={image1} alt="image" className="w-full h-full rounded-[8px]" style={{objectFit: "cover"}} />
                     <div className="absolute h-[32%] w-full bottom-0 left-0 bg-[rgba(24,24,26,0.5)] py-[5px] px-[10px] backdrop-blur-[3px] rounded-[8px]">
                         <div className="text-white text-[11px]">от 2 500 ₽/сутки</div>
@@ -214,21 +214,21 @@ export default function Home() {
             </div>}
             {subCategory === "autohouse" &&
             <div className="flex flex-wrap px-[10px] gap-[5px]">
-                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/car')}>
+                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/cars/1')}>
                     <img src={image6} alt="image" className="w-full h-full rounded-[8px]" style={{objectFit: "cover"}} />
                     <div className="absolute h-[32%] w-full bottom-0 left-0 bg-[rgba(24,24,26,0.5)] py-[5px] px-[10px] backdrop-blur-[3px] rounded-[8px]">
                         <div className="text-white text-[11px]">от 2 500 ₽/сутки</div>
                         <div className="text-white text-[13px] text-nowrap truncate overflow-hidden">Автодом Sunlight A</div>
                     </div>
                 </div>
-                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/car')}>
+                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/cars/1')}>
                     <img src={image6} alt="image" className="w-full h-full rounded-[8px]" style={{objectFit: "cover"}} />
                     <div className="absolute h-[32%] w-full bottom-0 left-0 bg-[rgba(24,24,26,0.5)] py-[5px] px-[10px] backdrop-blur-[3px] rounded-[8px]">
                         <div className="text-white text-[11px]">от 2 500 ₽/сутки</div>
                         <div className="text-white text-[13px] text-nowrap truncate overflow-hidden">Автодом Sunlight A</div>
                     </div>
                 </div>
-                <div className="relative w-[100%] h-[66vw] max-h-[300px] rounded-[8px] overflow-hidden" onClick={() => navigate('/car')}>
+                <div className="relative w-[100%] h-[66vw] max-h-[300px] rounded-[8px] overflow-hidden" onClick={() => navigate('/cars/1')}>
                     <img src={image6} alt="image" className="w-full h-full rounded-[8px]" style={{objectFit: "cover"}} />
                     <div className="absolute h-[40%] w-full bottom-0 left-0 p-[10px] rounded-[8px] flex flex-col justify-end"
                          style={{background: "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 1) 100%)"}}>
@@ -236,14 +236,14 @@ export default function Home() {
                         <div className="text-white text-[18px] text-nowrap truncate overflow-hidden">Автодом Sunlight A</div>
                     </div>
                 </div>
-                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/car')}>
+                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/cars/1')}>
                     <img src={image6} alt="image" className="w-full h-full rounded-[8px]" style={{objectFit: "cover"}} />
                     <div className="absolute h-[32%] w-full bottom-0 left-0 bg-[rgba(24,24,26,0.5)] py-[5px] px-[10px] backdrop-blur-[3px] rounded-[8px]">
                         <div className="text-white text-[11px]">от 2 500 ₽/сутки</div>
                         <div className="text-white text-[13px] text-nowrap truncate overflow-hidden">Автодом Sunlight A</div>
                     </div>
                 </div>
-                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/car')}>
+                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/cars/1')}>
                     <img src={image6} alt="image" className="w-full h-full rounded-[8px]" style={{objectFit: "cover"}} />
                     <div className="absolute h-[32%] w-full bottom-0 left-0 bg-[rgba(24,24,26,0.5)] py-[5px] px-[10px] backdrop-blur-[3px] rounded-[8px]">
                         <div className="text-white text-[11px]">от 2 500 ₽/сутки</div>
@@ -253,21 +253,21 @@ export default function Home() {
             </div>}
             {subCategory === "trailer" &&
             <div className="flex flex-wrap px-[10px] gap-[5px]">
-                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/car')}>
+                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/cars/1')}>
                     <img src={image2} alt="image" className="w-full h-full rounded-[8px]" style={{objectFit: "cover"}} />
                     <div className="absolute h-[32%] w-full bottom-0 left-0 bg-[rgba(24,24,26,0.5)] py-[5px] px-[10px] backdrop-blur-[3px] rounded-[8px]">
                         <div className="text-white text-[11px]">от 2 500 ₽/сутки</div>
                         <div className="text-white text-[13px] text-nowrap truncate overflow-hidden">Прицеп дача</div>
                     </div>
                 </div>
-                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/car')}>
+                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/cars/1')}>
                     <img src={image2} alt="image" className="w-full h-full rounded-[8px]" style={{objectFit: "cover"}} />
                     <div className="absolute h-[32%] w-full bottom-0 left-0 bg-[rgba(24,24,26,0.5)] py-[5px] px-[10px] backdrop-blur-[3px] rounded-[8px]">
                         <div className="text-white text-[11px]">от 2 500 ₽/сутки</div>
                         <div className="text-white text-[13px] text-nowrap truncate overflow-hidden">Прицеп дача</div>
                     </div>
                 </div>
-                <div className="relative w-[100%] h-[66vw] max-h-[300px] rounded-[8px] overflow-hidden" onClick={() => navigate('/car')}>
+                <div className="relative w-[100%] h-[66vw] max-h-[300px] rounded-[8px] overflow-hidden" onClick={() => navigate('/cars/1')}>
                     <img src={image2} alt="image" className="w-full h-full rounded-[8px]" style={{objectFit: "cover"}} />
                     <div className="absolute h-[40%] w-full bottom-0 left-0 p-[10px] rounded-[8px] flex flex-col justify-end"
                          style={{background: "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 1) 100%)"}}>
@@ -275,14 +275,14 @@ export default function Home() {
                         <div className="text-white text-[18px] text-nowrap truncate overflow-hidden">Прицеп дача</div>
                     </div>
                 </div>
-                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/car')}>
+                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/cars/1')}>
                     <img src={image2} alt="image" className="w-full h-full rounded-[8px]" style={{objectFit: "cover"}} />
                     <div className="absolute h-[32%] w-full bottom-0 left-0 bg-[rgba(24,24,26,0.5)] py-[5px] px-[10px] backdrop-blur-[3px] rounded-[8px]">
                         <div className="text-white text-[11px]">от 2 500 ₽/сутки</div>
                         <div className="text-white text-[13px] text-nowrap truncate overflow-hidden">Прицеп дача</div>
                     </div>
                 </div>
-                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/car')}>
+                <div className="relative w-[calc(50%-2.5px)] h-[35vw] max-h-[150px] rounded-[8px] overflow-hidden" onClick={() => navigate('/cars/1')}>
                     <img src={image2} alt="image" className="w-full h-full rounded-[8px]" style={{objectFit: "cover"}} />
                     <div className="absolute h-[32%] w-full bottom-0 left-0 bg-[rgba(24,24,26,0.5)] py-[5px] px-[10px] backdrop-blur-[3px] rounded-[8px]">
                         <div className="text-white text-[11px]">от 2 500 ₽/сутки</div>
